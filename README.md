@@ -45,8 +45,9 @@ Based on the final 572 labeled reviews:
 | Neutral   | 5.24%      |
 
 **Wordclouds for Positive and Negative Sentiments**:  
-![Positive Wordcloud](./notebook/wordclouds/positive-wordcloud.png)  
-![Negative Wordcloud](./notebook/wordclouds/negative-wordcloud.png)
+
+![alt text](notebooks/wordclouds/positive-wordcloud.png)
+![alt text](notebooks/wordclouds/negative-wordcloud.png)
 
 ---
 
