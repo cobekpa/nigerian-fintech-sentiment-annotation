@@ -1,11 +1,11 @@
 # 🇳🇬 Nigerian Fintech Sentiment Annotation
 
 ## 📌 Project Overview
-This project involves **manual sentiment annotation** of 572 user reviews collected from **Nigerian fintech apps**: Opay, Moniepoint, Palmpay, and Kuda.  
-The objective is to create a **high-quality labeled dataset** for **sentiment analysis and NLP applications**.
+This project features the manual sentiment annotation of 572 user reviews from top-tier Nigerian fintech platforms: Opay, Moniepoint, Palmpay, and Kuda. 
+The goal was to transform raw, unstructured Play Store feedback into a "Golden Dataset" optimized for sentiment analysis and NLP model training. This project demonstrates a full end-to-end data pipeline, from Docker-based tool deployment to final data validation.
 
-**Language:** English  
-**Number of Records:** 572  
+**Dataset Size:** 572 
+ **Language:** English (including Nigerian Pidgin nuances)  
 
 ---
 
@@ -31,7 +31,7 @@ The objective is to create a **high-quality labeled dataset** for **sentiment an
 - If a review is ambiguous, assign **Neutral**.  
 - Ensure **no duplicates** and all records are labeled.  
 
-For full details, see: [`annotation_guidelines/annotation_guidelines.md`](annotation_guidelines/annotation_guidelines.md)
+For full details, see: [`annotation/annotation_guidelines.md`](annotation/annotation_guidelines.md)
 
 ---
 
@@ -45,8 +45,8 @@ Based on the final 572 labeled reviews:
 | Neutral   | 5.24%      |
 
 **Wordclouds for Positive and Negative Sentiments**:  
-![Positive Wordcloud](notebook/wordclouds/positive-wordcloud.png)  
-![Negative Wordcloud](notebook/wordclouds/negative-wordcloud.png)
+![Positive Wordcloud](./notebook/wordclouds/positive-wordcloud.png)  
+![Negative Wordcloud](./notebook/wordclouds/negative-wordcloud.png)
 
 ---
 
