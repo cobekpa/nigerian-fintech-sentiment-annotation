@@ -1,0 +1,11 @@
+<View>
+  <!-- Text Classification Task -->
+  <Text name="text" value="$cleaned_content"/>
+  
+  <!-- Single-choice sentiment labels -->
+  <Choices name="sentiment" toName="text" choice="single">
+    <Choice value="Positive"/>
+    <Choice value="Neutral"/>
+    <Choice value="Negative"/>
+  </Choices>
+</View>
